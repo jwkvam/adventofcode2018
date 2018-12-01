@@ -7,8 +7,7 @@ function foo()
         for a in adjs
             freq += a
             if freq in x
-                println(freq)
-                return
+                return freq
             else
                 push!(x, freq)
             end
@@ -16,4 +15,4 @@ function foo()
     end
 end
 
-foo()
+println(foo())
