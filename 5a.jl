@@ -1,3 +1,5 @@
+# thought you needed the trimmed polymer...
+
 function trim(polymer::Array{Char, 1})
     chars = Array{Char, 1}()
     for char in polymer
